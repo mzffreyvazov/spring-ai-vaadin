@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "vaadin": {
-      "command": "npx",
-      "args": ["-y", "vaadin-docs-mcp-server@latest"],
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "vaadin-docs-mcp-server@latest"],
       "env": {}
     }
   }

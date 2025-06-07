@@ -29,6 +29,7 @@ public class Assistant {
   private final ChatOptions defaultOptions = new ChatOptions("", false);
 
   private final ChatClient chatClient;
+
   private final ChatMemory chatMemory;
   private final List<McpSyncClient> mcpSyncClients;
 
@@ -180,6 +181,5 @@ public class Assistant {
 
   public static record Attachment(String type, String key, String fileName, String url) {}
 
-  public static record Message(
-      String role, String content, @Nullable List<Attachment> attachments) {}
+  public static record Message(String role, String content, @Nullable List<Attachment> attachments) {}
 }

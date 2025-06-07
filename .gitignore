@@ -62,3 +62,8 @@ build/
 src/main/frontend/generated
 src/main/bundles/prod.bundle
 src/main/bundles
+
+
+### 
+documents
+env.properties
